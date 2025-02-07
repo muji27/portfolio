@@ -1,43 +1,51 @@
 import React from 'react';
 import { Award } from 'lucide-react';
 
+// Import all PDFs
+import awsCert from '/publicimagescertificates/AWS_Academy_Graduate___AWS_Academy_Machine_Learning_Foundations_Badge20240210-29-deu9lv.pdf';
+import aiCert from '/publicimagescertificates/Introduction to Artificial Intelligence.pdf';
+import mlCert from '/publicimagescertificates/Machine Learning.pdf';
+import javaCert from '/publicimagescertificates/Java Programming.pdf';
+import rCert from '/publicimagescertificates/R for Data Science.pdf';
+import sqlCert from '/publicimagescertificates/SQL for Data Science.pdf';
+
 const Certifications = () => {
   const certifications = [
     {
       title: "AWS Academy Graduate - Machine Learning Foundations",
       issuer: "Amazon Web Services",
       image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=300&q=80",
-      pdfPath: "/publicimagescertificates/AWS_Academy_Graduate___AWS_Academy_Machine_Learning_Foundations_Badge20240210-29-deu9lv.pdf"
+      pdfPath: awsCert
     },
     {
       title: "Introduction to Artificial Intelligence",
       issuer: "Skill UP",
       image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=300&q=80",
-      pdfPath: "/publicimagescertificates/Introduction to Artificial Intelligence.pdf"
+      pdfPath: aiCert
     },
     {
       title: "Machine Learning",
       issuer: "Skill UP",
       image: "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?auto=format&fit=crop&w=300&q=80",
-      pdfPath: "/publicimagescertificates/Machine Learning.pdf"
+      pdfPath: mlCert
     },
     {
       title: "Java Programming",
       issuer: "Great Learning",
       image: "https://images.unsplash.com/photo-1623479322729-28b25c16b011?auto=format&fit=crop&w=300&q=80",
-      pdfPath: "/publicimagescertificates/Java Programming.pdf"
+      pdfPath: javaCert
     },
     {
       title: "R for Data Science",
       issuer: "Great Learning",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=300&q=80",
-      pdfPath: "/publicimagescertificates/R for Data Science.pdf"
+      pdfPath: rCert
     },
     {
       title: "SQL for Data Science",
       issuer: "Great Learning",
       image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=300&q=80",
-      pdfPath: "/publicimagescertificates/SQL for Data Science.pdf"
+      pdfPath: sqlCert
     }
   ];
 

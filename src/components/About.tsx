@@ -1,4 +1,5 @@
 import React from 'react';
+import profilePhoto from '/muji photo.jpg';
 
 const About = () => {
   return (
@@ -14,7 +15,7 @@ const About = () => {
               <div className="absolute -inset-2 bg-gradient-to-r from-blue-600 to-blue-400 rounded-full blur opacity-30 group-hover:opacity-50 transition duration-500"></div>
               <div className="relative w-72 h-72 rounded-full overflow-hidden border-4 border-white shadow-xl transform group-hover:scale-105 transition duration-500">
                 <img
-                  src="/muji photo.jpg"
+                  src={profilePhoto}
                   alt="Mujibur Rahman N"
                   className="w-full h-full object-cover"
                 />
